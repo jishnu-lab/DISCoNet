@@ -1,0 +1,34 @@
+read_path: /ix/djishnu/Common_Folder/Coauth_Rev/
+save_path: /ix/djishnu/Common_Folder/Coauth_Rev/finale2
+start_year: 2000
+end_year: 2023
+consec_yrs_gat: null # can be set to null
+consec_yrs_auth: null # can be set to null
+
+### The following can't be null give atleast one value
+datasets:
+  - openalex
+  - arxiv
+graph_components:
+  - full
+  - lcc
+embedding_modes:
+  - tfidf
+  - bert
+models:
+  - zeroshot
+  - gat
+  - gat_graph_embed
+
+### controls can be null
+controls: # can be set to null
+  - shuffle_y
+  - shuffle_x
+
+### device will be auto determined if given null. Don't specify until necessary
+device: null
+
+### To recreate the directory and files. Can be set to null
+recreate_folder_level:
+  - null
+

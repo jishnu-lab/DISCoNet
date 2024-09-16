@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydisconet"
+dynamic=['version', 'description', 'keywords', 'urls', 'license','dependencies','readme','authors', 'requires-python', 'classifiers']
+
+[tool.setuptools.packages.find]
+where = ["src"]
