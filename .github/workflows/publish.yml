@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main  # Or the branch you want to trigger the action
-    tags:
-      - 'v*.*.*'  # This triggers on version tags like v1.0.0
 
 jobs:
   deploy:
