@@ -27,7 +27,7 @@ setup(
     setup_requires=["setuptools-git-versioning>=2.0,<3"],
     setuptools_git_versioning={
         "enabled": True,
-        # "version_file": version_file,
+        "version_file": version_file,
     },
     name=package_name,
     # version=version, #
