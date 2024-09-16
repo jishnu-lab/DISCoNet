@@ -6,7 +6,7 @@ on:
       - main  # Or the branch you want to trigger the action
 
 jobs:
-  deploy:
+  publishing on PyPI:
     runs-on: ubuntu-latest
 
     permissions:
