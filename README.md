@@ -1,4 +1,4 @@
-# DISCo-Net Package
+# DISCo-Net : **D**istributed, **I**nterpretable, and **S**calable computing for **Co-**authorship **Net**works
 
 ![DISCO-Net overview](<Screenshot 2024-09-30 at 12.12.52 PM.png>)
 
@@ -10,13 +10,14 @@ An exponential growth in scientific literature necessitates the development of h
 - [Usage](#usage)
   - [Initial setup](#initial-setup)
 - [Scalable dependencies](#DISCo-Net-extensively-utilizes-following-for-scalability)
-- [Contributing](#contributing)
+- [Contributing](#Contributing)
+- [Author information](#Author-information)
 
 ## Features
 
 - Scalable interpretable model
 - Distributed computing
-- BERT based inference
+- BERT based interpretable inference
 
 ## Usage
 
@@ -29,7 +30,7 @@ An exponential growth in scientific literature necessitates the development of h
     source activate disconet
     ```
 
-2. Now that you have a suitable Python environment, you're ready to personalize this repository. Just run:
+2. Install disconet by running,
 
     ```
     pip install pydisconet
