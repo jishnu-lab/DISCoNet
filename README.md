@@ -1,4 +1,8 @@
-# DISCo-Net Package
+# DISCo-Net : **D**istributed, **I**nterpretable, and **S**calable computing for **Co-**authorship **Net**works
+
+![DISCO-Net overview](<Screenshot 2024-09-30 at 12.12.52 PM.png>)
+
+An exponential growth in scientific literature necessitates the development of highly scalable computational tools that can effectively analyze and distill insights from complex, interconnected research landscapes. We introduce **D**istributed, **I**nterpretable, and **S**calable computing for **Co-**authorship **Net**works (DISCo-Net), a robust and scalable tool engineered to curate and examine large-scale co-authorship networks by harnessing the power of distributed computing and advanced relational database queries.
 
 ## Contents
 
@@ -6,13 +10,14 @@
 - [Usage](#usage)
   - [Initial setup](#initial-setup)
 - [Scalable dependencies](#DISCo-Net-extensively-utilizes-following-for-scalability)
-- [Contributing](#contributing)
+- [Contributing](#Contributing)
+- [Author information](#Author-information)
 
 ## Features
 
 - Scalable interpretable model
 - Distributed computing
-- BERT based inference
+- BERT based interpretable inference
 
 ## Usage
 
@@ -20,20 +25,12 @@
 
 1. Create a Python 3.8 or newer virtual environment.
 
-    *If you're not sure how to create a suitable Python environment, the easiest way is using [Anaconda](https://docs.conda.io/en/latest/miniconda.html)*
-
-    ```
-    brew install miniconda
-    ```
-
-    *Then you can create and activate a new Python environment by running:*
-
     ```
     conda create -n disconet python=3.8
     source activate disconet
     ```
 
-2. Now that you have a suitable Python environment, you're ready to personalize this repository. Just run:
+2. Install disconet by running,
 
     ```
     pip install pydisconet
@@ -49,3 +46,11 @@
 
 If you find a bug :bug:, please open a [bug report](https://github.com/swapnilkeshari/disconet/issues/new?assignees=&labels=bug&template=bug_report.md&title=).
 If you have an idea for an improvement or new feature :rocket:, please open a [feature request](https://github.com/swapnilkeshari/disconet/issues/new?assignees=&labels=Feature+request&template=feature_request.md&title=). 
+
+## Author information
+
+In case of any questions, please reach out to us at:
+- [Swapnil-Keshari] (swk25@pitt.edu)
+- [Zarifeh-Heidari-Rarani]
+- [Akash-Kishore]
+- [Jishnu-Das] (jishnu@pitt.edu)
