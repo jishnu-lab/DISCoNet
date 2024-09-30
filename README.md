@@ -1,5 +1,7 @@
 # DISCo-Net Package
 
+![DISCO-Net overview](<Screenshot 2024-09-30 at 12.12.52 PM.png>)
+
 An exponential growth in scientific literature necessitates the development of highly scalable computational tools that can effectively analyze and distill insights from complex, interconnected research landscapes. We introduce **D**istributed, **I**nterpretable, and **S**calable computing for **Co-**authorship **Net**works (DISCo-Net), a robust and scalable tool engineered to curate and examine large-scale co-authorship networks by harnessing the power of distributed computing and advanced relational database queries.
 
 ## Contents
