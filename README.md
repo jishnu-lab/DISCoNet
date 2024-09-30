@@ -47,7 +47,7 @@ If you have an idea for an improvement or new feature :rocket:, please open a [f
 ## Author information
 
 In case of any questions, please reach out to us at:
-- [Swapnil Keshari] (swk25@pitt.edu)
-- [Zarifeh Heidari Rarani]
-- [Akash Kishore]
-- [Jishnu Das] (jishnu@pitt.edu)
+- [Swapnil-Keshari] (swk25@pitt.edu)
+- [Zarifeh-Heidari-Rarani]
+- [Akash-Kishore]
+- [Jishnu-Das] (jishnu@pitt.edu)
